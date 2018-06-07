@@ -1,0 +1,96 @@
+body{
+	margin: 0px;
+}
+*{
+	margin: 0px;
+}
+.contain{
+	width: 1024px;
+	margin: 0 auto;
+}
+.top{
+	position: relative;
+	height: 600px;
+	background: #192314;
+	overflow: hidden; 
+}
+.top-text-box{
+	width: 512px;
+	height: 195px;
+	position: absolute;
+	left: 122px;
+	top: 157px;
+	color: #fff;
+}
+.top-pic-box{
+	width: 662px;
+	height: 510px;
+	background: url(https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beosound-shape/green-beosound-shape-desktop.jpg);
+	background-size: 665px auto;
+	float: right;
+}
+.description{
+	line-height: 24px;
+	margin-bottom: 18px;
+	font-size: 11px;
+	font-family: "Gotham SSm A","Gotham SSm B";
+	letter-spacing: 2px;
+}
+.title{
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 10px 0px 12px;
+	letter-spacing: 4px;
+}
+.small-desc{
+	line-height: 20px;
+	margin-bottom: 19.5px;
+	font-size: 13px;
+}
+.button{
+	display: block;
+	line-height: 11.2px;
+	width: 161px;
+	padding: 12px 35px;
+	margin: 8px 0px;
+	color: #fff;
+	font-size: 10px;
+	background-color: rgba(255,255,255,0.1);
+	font-style: none;
+	text-align: center;
+}
+.banner{
+	width: 1024px;
+	height: 550px;
+	background: url(img-bg-1350.jpg);
+	background-size: 100% auto;
+	background-position: 0 -158px;
+}
+.product-box{
+	width: 705px;
+	height: 353px;
+	padding: 0px 58px;
+	margin: 0 auto;
+	margin-top: -48px;
+	position: relative;
+	z-index: 100;
+}
+.product-item{
+	width: 203px;
+	height: 313px;
+	float: left;
+	position: relative;
+}  
+.product-item img{
+	width: 100%;
+}
+.product-item h4{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+}
